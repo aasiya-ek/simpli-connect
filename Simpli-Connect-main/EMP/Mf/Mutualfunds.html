@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Session</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css'>
+<link rel='stylesheet' href='https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="layout has-sidebar fixed-sidebar fixed-header">
+      <aside id="sidebar" class="sidebar break-point-sm has-bg-image">
+        <a id="btn-collapse" class="sidebar-collapser"><i class="ri-arrow-left-s-line"></i></a>
+        <div class="image-wrapper">
+          <img src="assets/images/sidebar-bg.jpg" alt="sidebar background" />
+        </div>
+        <div class="sidebar-layout">
+          <div class="sidebar-header">
+            <div class="pro-sidebar-logo">
+              <div><img src="logo.png" style="height: 45px;"></div>
+              <h5>OUT OF THE BOX </h5>
+            </div>
+          </div>
+          <div class="sidebar-content">
+            <nav class="menu open-current-submenu">
+              <ul>
+                <li class="menu-header"><span> GENERAL </span></li>
+                <li class="menu-item sub-menu">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-bank-fill"></i>
+                    </span>
+                    <span class="menu-title">Account Generation</span>
+                    <span class="menu-suffix">
+                      <!-- this is the bage side program please edit here -->
+                      <span class="badge primary"></span>
+                    </span>
+                  </a>
+                  <div class="sub-menu-list">
+                    <ul>
+                      <li class="menu-item">
+                        <a href="../Accounts/savings/savings.html">
+                          <span class="menu-title">Salary </span>
+                          
+
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../Accounts/current/current.html">
+                          <span class="menu-title">Current </span>
+                        </a>
+                      </li>
+                      <li class="menu-item sub-menu">
+                        <a href="../Accounts/savings/savings.html">
+                          <span class="menu-title">Savings </span>
+                        </a>
+                        
+                        <!--<div class="tab">
+                          <button class="tablinks" onmouseover="openCity(event, 'London')">Salary</button>
+                          <button class="tablinks" onmouseover="openCity(event, 'Paris')">Paris</button>
+                          <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Tokyo</button>
+                        </div>
+                        <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#bring">Bring</a>
+      <a href="https://www.youtube.com/watch?v=59bhXBQL5m0">Deliver</a>
+      <a href="#package">Package</a>
+      <a href="#express">Express</a>
+    </div>
+                        
+                        <div id="London" class="tabcontent">
+                          <h3>London</h3>
+                          <p>London is the capital city of England.</p>
+                        </div>
+                        
+                        <div id="Paris" class="tabcontent">
+                          <h3>Paris</h3>
+                          <p>Paris is the capital of France.</p> 
+                        </div>
+                        
+                        <div id="Tokyo" class="tabcontent">
+                          <h3>Tokyo</h3>
+                          <p>Tokyo is the capital of Japan.</p>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                        
+                        <script>
+                        function openCity(evt, cityName) {
+                          var i, tabcontent, tablinks;
+                          tabcontent = document.getElementsByClassName("tabcontent");
+                          for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                          }
+                          tablinks = document.getElementsByClassName("tablinks");
+                          for (i = 0; i < tablinks.length; i++) {
+                            tablinks[i].className = tablinks[i].className.replace(" active", "");
+                          }
+                          document.getElementById(cityName).style.display = "block";
+                          evt.currentTarget.className += " active";
+                        }
+                        </script>
+                        <div class="sub-menu-list">
+                          <ul>
+                            <li class="menu-item">
+                              <a href="#">
+                                <span class="menu-title">Input</span>
+                              </a>
+                            </li>
+                            <li class="menu-item">
+                              <a href="#">
+                                <span class="menu-title">Select</span>
+                              </a>
+                            </li>
+                            <li class="menu-item sub-menu">
+                              <a href="#">
+                                <span class="menu-title">More</span>
+                              </a>
+                              <div class="sub-menu-list">
+                                <ul>
+                                  <li class="menu-item">
+                                    <a href="#">
+                                      <span class="menu-title">CheckBox</span>
+                                    </a>
+                                  </li>
+                                  <li class="menu-item">
+                                    <a href="#">
+                                      <span class="menu-title">Radio</span>
+                                    </a>
+                                  </li>
+                                  <li class="menu-item sub-menu">
+                                    <a href="#">
+                                      <span class="menu-title">Want more ?</span>
+                                      <span class="menu-suffix">&#x1F914;</span>
+                                    </a>
+                                    <div class="sub-menu-list">
+                                      <ul>
+                                        <li class="menu-item">
+                                          <a href="#">
+                                            <span class="menu-prefix">&#127881;</span>
+                                            <span class="menu-title">You made it </span>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>-->
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item sub-menu">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-money-dollar-circle-fill"></i>
+                    </span>
+                    <span class="menu-title">Loans</span>
+                  </a>
+                  <div class="sub-menu-list">
+                    <ul>
+                      <li class="menu-item">
+                        <a href="../Loans/personal/personal.html">
+                          <span class="menu-title">Personal Loans</span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../Loans/home/hloans.html">
+                          <span class="menu-title">Home Loans</span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../Loans/car/carloans.html">
+                          <span class="menu-title">Car Loans</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item sub-menu">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-bank-card-fill"></i>
+                    </span>
+                    <span class="menu-title">Cards</span>
+                  </a>
+                  <div class="sub-menu-list">
+                    <ul>
+                      <li class="menu-item">
+                        <a href="../cards/credit/credit.html">
+                          <span class="menu-title">Credit </span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../cards/debit/debit.html">
+                          <span class="menu-title">Debit</span>
+                        </a>
+                      </li>
+                      <!--<li class="menu-item">
+                        <a href="#">
+                          <span class="menu-title">credit card</span>
+                        </a>
+                      </li>-->
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item sub-menu">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-global-fill"></i>
+                    </span>
+                    <span class="menu-title">Internet Banking</span>
+                  </a>
+                  <div class="sub-menu-list">
+                    <ul>
+                      <li class="menu-item">
+                        <a href="../IB/basic/basic.html">
+                          <span class="menu-title">Basic Services</span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../IB/advance/advance.html">
+                          <span class="menu-title">Advanced Services</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-item sub-menu">
+                  <a href="#">
+                    <span class="menu-icon">
+                     <i class="ri-service-fill"></i>
+                    </span>
+                    <span class="menu-title">Insurances</span>
+                  </a>
+                  <div class="sub-menu-list">
+                    <ul>
+                      <li class="menu-item">
+                        <a href="../insure/Health/health.html">
+                          <span class="menu-title">Health & Life</span>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../insure/Misclls/misc.html">
+                          <span class="menu-title">Miscellaneous</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-header" style="padding-top: 20px"><span> EXTRA </span></li>
+                <li class="menu-item">
+                  <a href="#">
+                    <span class="menu-icon">
+                      <i class="ri-calendar-fill"></i>
+                    </span>
+                    <span class="menu-title">Mutual Funds</span>
+                    <span class="menu-suffix">
+                      <span class="badge secondary">Beta</span>
+                    </span>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../transaction/Trans.html">
+                    <span class="menu-icon">
+                      <i class="ri-calendar-fill"></i>
+                    </span>
+                    <span class="menu-title">International Transactions</span>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="../../index.html">
+                    <span class="menu-icon">
+                      <i class="ri-service-fill"></i>
+                    </span>
+                    <span class="menu-title">logout</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="sidebar-footer">
+            <div class="footer-box">
+              <div>
+                 <img
+                  class="react-logo"
+                 src="logo.png"
+                  alt="react"
+                />
+              </div> 
+              <div style="padding: 0 10px">
+                <span style="display: block; margin-bottom: 10px"
+                  ><u>OUT OF THE BOX</u><br>think beyond
+                </span>
+                <div style="margin-bottom: 15px">
+                  <img
+                    alt="preview badge"
+                    src=http://simpleconnect.rf.gd/"/>
+                </div>
+                <div>
+                  <a href="http://simpleconnect.rf.gd/"react-pro-sidebar" target="_blank"
+                    >Check it out!</a
+                  >
+                </div>
+              </div>-->
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div id="overlay" class="overlay"></div>
+      <div class="layout">
+        <main class="content">
+          <div>
+            <a id="btn-toggle" href="#" class="sidebar-toggler break-point-sm">
+              <i class="ri-menu-line ri-xl"></i>
+            </a>
+            <h1 style="margin-bottom: 0">Mutual Funds</h1>
+            <span style="display: inline-block">
+              Each investor in a mutual fund owns units of the fund, which represent a portion of the investments made by the fund. The returns generated by the mutual fund are distributed among the investors in proportion to their units.
+
+Canara Bank, Federal Bank, and State Bank of India offer a wide range of mutual funds to suit the investment objectives and risk profiles of different investors. These mutual funds may be classified based on the type of securities they invest in, such as equity funds, debt funds, balanced funds, or hybrid funds. They may also be categorized based on the investment objective, such as growth funds, income funds, or dividend yield funds.
+
+It's important to note that mutual fund investments are subject to market risks and investors should carefully read the offer document before investing. The offer document contains details about the investment objective, risk factors, charges, and other important information related to the mutual fund. Additionally, there may be other types of investment options or financial products that are not listed here. If you need more detailed information about these banks' mutual fund offerings, you can visit their websites or contact their customer service departments.
+Canara Bank, Federal Bank, and State Bank of India offer a variety of mutual fund services to their customers. Here are some of the common types of mutual fund services offered by these banks:
+
+
+
+
+
+
+
+
+
+
+
+
+It's important to note that the mutual fund services offered by Canara Bank, Federal Bank, and State Bank of India may vary depending on the bank and the type of mutual fund. Additionally, investors should carefully read the offer document and understand the risks associated with mutual fund investments before investing.
+            </span>
+            <br />
+            <div id="Salary" class="tabcontent">
+              <h3>Salary Account</h3>
+              <p>London is the capital city of England.</p>
+            </div>
+            <span>
+             
+              <!--<a href="http://simpleconnect.rf.gd/"pro-sidebar-template" target="_blank"
+                >Github</a
+              >
+            </span>-->
+           <!-- <div style="margin-top: 10px">
+              <a href="http://simpleconnect.rf.gd/"pro-sidebar-template" target="_blank">
+                <img
+                  alt="GitHub stars"
+                  src="https://img.shields.io/github/stars/azouaoui-med/pro-sidebar-template?style=social"
+                />
+              </a>
+              <a href="http://simpleconnect.rf.gd/"pro-sidebar-template" target="_blank">
+                <img
+                  alt="GitHub forks"
+                  src="https://img.shields.io/github/forks/azouaoui-med/pro-sidebar-template?style=social"
+                />
+              </a>
+            </div>
+          </div>-->
+          <div>
+            <h2>Types</h2>
+            <ul>
+              <li>Equity Mutual Funds: Equity mutual funds invest primarily in equity shares of companies. These funds are suitable for investors who are willing to take higher risks in the hope of earning higher returns.</li>
+              <li>Debt Mutual Funds: Debt mutual funds invest primarily in fixed-income securities like bonds and debentures. These funds are suitable for investors who are looking for a stable source of income and are willing to take lower risks.</li>
+              <li>Balanced Mutual Funds: Balanced mutual funds invest in both equity and debt instruments. These funds are suitable for investors who are looking for a balance between capital appreciation and regular income.</li>
+              <li>Index Funds: Index funds track a specific stock market index, such as the Nifty 50 or the BSE Sensex. These funds are suitable for investors who want to invest in the stock market but do not have the expertise or time to analyze individual stocks.</li>
+              <li>Sectoral/Thematic Funds: Sectoral/Thematic funds invest in specific sectors or themes such as banking, technology, or healthcare. These funds are suitable for investors who have a specific investment theme in mind.</li>
+              <li>
+                Exchange Traded Funds (ETFs): ETFs are similar to index funds, but they are traded on stock exchanges like individual stocks. ETFs can be bought and sold during market hours, and their prices fluctuate throughout the day.</li>
+            </ul>
+          </div>
+          <!-- <div>
+            <h2>Requirements</h2>
+            <ul>
+              <li>Fully responsive</li>
+              <li>Collapsable sidebar</li>
+              <li>Multi level menu</li>
+              <li>RTL support</li>
+              <li>Customizable</li>
+            </ul>
+          </div> -->
+          <div>
+            <h2>Leading Banks</h2>
+            <ul>
+              <li>
+                <a target="_blank" href="../../../leading banks new/index.html">
+                  CANARA BANK</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="../../../leading banks new/index.html">
+                STATE BANK OF INDIA</a>
+              </li>
+              <li>
+                <a target="_blank" href="../../../leading banks new/index.html">
+                FEDERAL BANK</a>
+              </li>
+            </ul>
+          </div>
+          <footer class="footer">
+            <small style="margin-bottom: 20px; display: inline-block">
+              © 2023 made by the
+              <span style="color: red; font-size: 18px">&#10084;</span>
+              <a target="_blank" href="../../../index.html
+            ">Team Out of the box </a>
+            </small>
+            <br />
+            <div class="social-links">
+              <!-- <a href="http://simpleconnect.rf.gd/" target="_blank">
+                <i class="ri-github-fill ri-xl"></i>
+              </a> -->
+              <!--<a href="https://twitter.com/azouaoui_med" target="_blank">
+                <i class="ri-twitter-fill ri-xl"></i>
+              </a>
+              <a href="https://codepen.io/azouaoui-med" target="_blank">
+                <i class="ri-codepen-fill ri-xl"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/mohamed-azouaoui/" target="_blank">
+                <i class="ri-linkedin-box-fill ri-xl"></i>
+              </a>-->
+            </div>
+          </footer>
+        </main>
+        <div class="overlay"></div>
+      </div>
+    </div>
+<!-- partial -->
+  <script src='https://unpkg.com/@popperjs/core@2'></script><script  src="./script.js"></script>
+ 
+</body>
+</html>
